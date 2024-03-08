@@ -8,7 +8,7 @@ import Placeholder from '../images/Portrait_Placeholder.png';
 
 const Profile = (props) => {
   useEffect(() => {
-    document.title = `${props.nameOfUser} | JCBenny`;
+    document.title = `${props.nameOfUser} | Doloria`;
   });
   const menuRef = useRef(null);
 

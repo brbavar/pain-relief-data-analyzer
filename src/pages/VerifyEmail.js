@@ -15,9 +15,9 @@ export const VerifyEmail = () => {
       <div>
         <h1>Thanks for signing up!</h1>
         <p>
-          We just sent you a verification email. You must verify your email
-          address to enjoy all that JCBenny has to offer. So, what are you
-          waiting for? Check your inbox!
+          We just sent you a verification email. You must respond to that email
+          to verify your email address, at which point you can begin reporting
+          your pain relief results to Doloria.
         </p>
       </div>
     </body>

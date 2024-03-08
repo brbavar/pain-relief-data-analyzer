@@ -8,7 +8,7 @@ import onsubmitHandler from '../lib/onsubmitHandler';
 
 const Login = () => {
   useEffect(() => {
-    document.title = 'Sign in | JCBenny';
+    document.title = 'Sign in | Doloria';
   });
 
   const [svgPath, setSVGPath] = useState(eyeOpen);
@@ -122,7 +122,7 @@ const Login = () => {
             />
           </div>
           <p style={{ fontSize: '10pt' }}>
-            New to JCBenny? <a href='register'>Create an account.</a>
+            New to Doloria? <a href='register'>Create an account.</a>
           </p>
         </form>
       </div>

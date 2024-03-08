@@ -9,7 +9,7 @@ import onsubmitHandler from '../lib/onsubmitHandler';
 
 const Register = () => {
   useEffect(() => {
-    document.title = 'Create an account | JCBenny';
+    document.title = 'Create an account | Doloria';
   });
 
   const [svgPath, setSVGPath] = useState(eyeOpen);
