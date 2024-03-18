@@ -9,6 +9,7 @@ import { VerifyEmail } from './pages/VerifyEmail.js';
 import { EmailVerification } from './pages/EmailVerification.js';
 import Login from './pages/Login.js';
 import Profile from './pages/Profile.js';
+import ReportPainLevels from './pages/ReportPainLevels.js';
 
 import './index.css';
 
@@ -41,6 +42,7 @@ setTimeout(() => {
             element={<EmailVerification />}
           />
           <Route path='/login' element={<Login />} />
+          <Route path='/report-pain-levels' element={<ReportPainLevels />} />
         </Routes>
       </BrowserRouter>
     </React.StrictMode>
