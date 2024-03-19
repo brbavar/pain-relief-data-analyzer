@@ -458,6 +458,30 @@ form button.submit {
   border-radius: 10px;
 }
 
+/* Styles for pain level reporting page below */
+
+/* prettier-ignore */
+input[type=range]  {
+  appearance: none;
+}
+
+/* prettier-ignore */
+input[type=range]::-webkit-slider-runnable-track {
+  background: #ddd;
+  border: none;
+  width: 300px;
+  height: 5px;
+}
+
+/* prettier-ignore */
+input[type=range]::-webkit-slider-thumb {
+  appearance: none;
+  height: 16px;
+  width: 16px;
+  background: goldenrod;
+  border-radius: 50%;
+}
+
 /* Styles for intro page below */
 
 p:not(form *),
