@@ -466,7 +466,7 @@ input[type=range]  {
 }
 
 /* prettier-ignore */
-input[type=range]::-webkit-slider-runnable-track {
+input[type=range]::-webkit-slider-runnable-track, input[type=range]::-moz-range-track {
   background: #ddd;
   border: none;
   width: 300px;
@@ -474,7 +474,7 @@ input[type=range]::-webkit-slider-runnable-track {
 }
 
 /* prettier-ignore */
-input[type=range]::-webkit-slider-thumb {
+input[type=range]::-webkit-slider-thumb, input[type=range]::-moz-range-thumb {
   appearance: none;
   height: 16px;
   width: 16px;
