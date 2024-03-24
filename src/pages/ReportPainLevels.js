@@ -7,14 +7,16 @@ const ReportPainLevels = () => {
   return (
     <body>
       {/* <ReactSlider /> */}
-      <input
-        type='range'
-        value={painLevel}
-        min='0'
-        max='10'
-        onInput={(e) => setPainLevel(e.target.value)}
-      />
-      <output>{painLevel}</output>
+      <div className='pain-meter'>
+        <input
+          type='range'
+          value={painLevel}
+          min='0'
+          max='10'
+          onInput={(e) => setPainLevel(e.target.value)}
+        />
+        <output>{painLevel}</output>
+      </div>
       {/* <datalist id='ticks'>
         <option>0</option>
         <option>1</option>
